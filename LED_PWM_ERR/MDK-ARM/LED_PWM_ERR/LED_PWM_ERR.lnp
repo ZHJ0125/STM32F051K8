@@ -20,6 +20,6 @@
 "led_pwm_err\main.o"
 "led_pwm_err\stm32f0xx_it.o"
 --library_type=microlib --strict --scatter "LED_PWM_ERR\LED_PWM_ERR.sct"
---libpath "E:\MDK\install\Core\ARM\ARMCC\lib" --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "LED_PWM_ERR.map" -o LED_PWM_ERR\LED_PWM_ERR.axf
