@@ -118,7 +118,7 @@ int main(void)
 //	  }
 	  
 //	  HAL_UART_Receive(&huart1, buffer, 32, 1000);
-	  scanf("%s", &buffer);
+	  scanf("%s", buffer);
 	  HAL_Delay(100);
 	  HAL_UART_Transmit(&huart1, buffer, sizeof(buffer), 1000);
 	  HAL_Delay(100);
