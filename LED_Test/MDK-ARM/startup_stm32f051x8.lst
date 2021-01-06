@@ -397,7 +397,7 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=led_test\startup_stm32f051x8.d -oled_test\startup_stm32f051x8.o -I
-.\RTE\_LED_Test -IE:\MDK\install\Pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include -IE:\M
+.\RTE\_LED_Test -ID:\MDK\install\Pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include -ID:\M
 DK\install\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Incl
 ude --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 528" --
 predefine="_RTE_ SETA 1" --predefine="STM32F051x8 SETA 1" --list=startup_stm32f

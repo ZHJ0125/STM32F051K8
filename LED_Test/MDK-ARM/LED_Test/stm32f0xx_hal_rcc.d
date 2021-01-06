@@ -7,13 +7,13 @@ led_test\stm32f0xx_hal_rcc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Include/core_cm0.h
-led_test\stm32f0xx_hal_rcc.o: D:\ADS\install\INCLUDE\stdint.h
+led_test\stm32f0xx_hal_rcc.o: D:\MDK\install\Core\ARM\ARMCC\Bin\..\include\stdint.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
-led_test\stm32f0xx_hal_rcc.o: D:\ADS\install\INCLUDE\stdio.h
+led_test\stm32f0xx_hal_rcc.o: D:\MDK\install\Core\ARM\ARMCC\Bin\..\include\stdio.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h
 led_test\stm32f0xx_hal_rcc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h

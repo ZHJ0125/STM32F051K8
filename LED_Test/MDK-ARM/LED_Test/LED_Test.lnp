@@ -20,6 +20,6 @@
 "led_test\stm32f0xx_hal_pwr_ex.o"
 "led_test\system_stm32f0xx.o"
 --library_type=microlib --strict --scatter "LED_Test\LED_Test.sct"
---libpath "E:\MDK\install\Core\ARM\ARMCC\lib" --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "LED_Test.map" -o LED_Test\LED_Test.axf

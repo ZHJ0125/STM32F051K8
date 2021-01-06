@@ -101,7 +101,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-  /* USER CODE END WHILE */
+  
 //	  while(back = HAL_UART_Receive(&huart1, buffer, 32, 1000)){
 //		  if(back == HAL_ERROR){
 //			HAL_UART_Transmit(&huart1, "HAL_ERROR!\n", sizeof("HAL_ERROR!\n"), 100);
@@ -117,13 +117,13 @@ int main(void)
 //		  }
 //	  }
 	  
-//	  HAL_UART_Receive(&huart1, buffer, 32, 1000);
-	  scanf("%s", buffer);
+	  HAL_UART_Receive(&huart1, buffer, 32, 1000);
+//	  scanf("%s", buffer);
 	  HAL_Delay(100);
 	  HAL_UART_Transmit(&huart1, buffer, sizeof(buffer), 1000);
 	  HAL_Delay(100);
 	  
-
+	/* USER CODE END WHILE */
   /* USER CODE BEGIN 3 */
 
   }

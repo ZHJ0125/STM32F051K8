@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"uart_redirect\usart.o"
+"uart_redirect\stm32f0xx_it.o"
+"uart_redirect\main.o"
+"uart_redirect\gpio.o"
+"uart_redirect\stm32f0xx_hal_msp.o"
+"uart_redirect\startup_stm32f051x8.o"
+"uart_redirect\stm32f0xx_hal_rcc_ex.o"
+"uart_redirect\stm32f0xx_hal_cortex.o"
+"uart_redirect\stm32f0xx_hal_gpio.o"
+"uart_redirect\stm32f0xx_hal_flash_ex.o"
+"uart_redirect\stm32f0xx_hal_flash.o"
+"uart_redirect\stm32f0xx_hal_dma.o"
+"uart_redirect\stm32f0xx_hal_uart_ex.o"
+"uart_redirect\stm32f0xx_hal_uart.o"
+"uart_redirect\stm32f0xx_hal_i2c.o"
+"uart_redirect\stm32f0xx_hal_tim_ex.o"
+"uart_redirect\stm32f0xx_hal_i2c_ex.o"
+"uart_redirect\stm32f0xx_hal_pwr.o"
+"uart_redirect\stm32f0xx_hal_pwr_ex.o"
+"uart_redirect\stm32f0xx_hal_rcc.o"
+"uart_redirect\stm32f0xx_hal_tim.o"
+"uart_redirect\stm32f0xx_hal.o"
+"uart_redirect\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "UART_Redirect\UART_Redirect.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_Redirect.map" -o UART_Redirect\UART_Redirect.axf
