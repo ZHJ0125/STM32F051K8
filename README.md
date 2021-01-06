@@ -1,6 +1,8 @@
  # STM32F051K8
 
 > Flame and Voltage detection with STM32F051K8
+>
+> Also see : [https://gitee.com/zhj0125/STM32F051K8](https://gitee.com/zhj0125/STM32F051K8)
 
 
 ## 1. ADC Acquisition
@@ -15,12 +17,12 @@ for(int i=0;i<2;i++){
 HAL_ADC_Stop(&hadc);
 ```
 
-## 2. ADC Conversion
+## 2. Data Conversion
 
 ```c
 Battery = value[0]*3.3/4096.0;
 Fire = (int)value[1];
-printf("BAT = %.2lf V\t   ", Battery);
+printf("BAT = %.2lf V\t", Battery);
 printf("Fire = %d\n", Fire);
 ```
 
@@ -28,7 +30,7 @@ printf("Fire = %d\n", Fire);
 
 ### Overall
 
-![Overall2](3_Data/image/Overall2.png)
+![Overall1](3_Data/image/Overall1.png)
 
 ![font3](3_Data/image/font3.png)
 
@@ -40,6 +42,6 @@ printf("Fire = %d\n", Fire);
 
 ![Battery](3_Data/image/Battery.png)
 
-### UART Serial Communication
+### Serial Communication
 
 ![Battery](3_Data/image/safe.png)
