@@ -96,9 +96,9 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
   double value[2];			// 存储ADC检测到的数值
-	double Battery;				// 电池电压
-	char Level[10];				// 火焰程度
-	int Fire;							// 火焰传感器数值
+  double Battery;				// 电池电压
+  char Level[10];				// 火焰程度
+  int Fire;							// 火焰传感器数值
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/

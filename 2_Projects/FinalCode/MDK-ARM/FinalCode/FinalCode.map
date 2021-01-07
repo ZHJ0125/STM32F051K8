@@ -1568,25 +1568,25 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       204         34          0          0         76       1503   adc.o
-        84         10          0          0          0        799   gpio.o
-       538        118          0          0          0       4016   main.o
-        28          8        188          0       1024        576   startup_stm32f051x8.o
-       122         18          0          4          0       3479   stm32f0xx_hal.o
-      1338         42          0          0          0       7629   stm32f0xx_hal_adc.o
-       158         22          0          0          0       9778   stm32f0xx_hal_cortex.o
-         0          0          0          0          0     293484   stm32f0xx_hal_flash.o
-       340         26          0          0          0       2180   stm32f0xx_hal_gpio.o
-        56          6          0          0          0        770   stm32f0xx_hal_msp.o
-      1316         94          0          0          0       4885   stm32f0xx_hal_rcc.o
-       248         12          0          0          0       1336   stm32f0xx_hal_rcc_ex.o
-       816         32          0          0          0       4655   stm32f0xx_hal_uart.o
-        20          0          0          0          0       1987   stm32f0xx_it.o
-        92         14         24          4          0       1075   system_stm32f0xx.o
-       148         32          0          0        112       1482   usart.o
+       204         34          0          0         76       1551   adc.o
+        84         10          0          0          0        815   gpio.o
+       538        118          0          0          0       4104   main.o
+        28          8        188          0       1024        588   startup_stm32f051x8.o
+       122         18          0          4          0       3559   stm32f0xx_hal.o
+      1338         42          0          0          0       7733   stm32f0xx_hal_adc.o
+       158         22          0          0          0       9854   stm32f0xx_hal_cortex.o
+         0          0          0          0          0     293584   stm32f0xx_hal_flash.o
+       340         26          0          0          0       2216   stm32f0xx_hal_gpio.o
+        56          6          0          0          0        794   stm32f0xx_hal_msp.o
+      1316         94          0          0          0       4949   stm32f0xx_hal_rcc.o
+       248         12          0          0          0       1360   stm32f0xx_hal_rcc_ex.o
+       816         32          0          0          0       4715   stm32f0xx_hal_uart.o
+        20          0          0          0          0       2043   stm32f0xx_it.o
+        92         14         24          4          0       1111   system_stm32f0xx.o
+       148         32          0          0        112       1530   usart.o
 
     ----------------------------------------------------------------------
-      5526        468        244          8       1212     339634   Object Totals
+      5526        468        244          8       1212     340506   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         18          0          0          0          0          0   (incl. Padding)
 
@@ -1644,8 +1644,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      9416        624        244         12       1212     338562   Grand Totals
-      9416        624        244         12       1212     338562   ELF Image Totals
+      9416        624        244         12       1212     339434   Grand Totals
+      9416        624        244         12       1212     339434   ELF Image Totals
       9416        624        244         12          0          0   ROM Totals
 
 ==============================================================================
